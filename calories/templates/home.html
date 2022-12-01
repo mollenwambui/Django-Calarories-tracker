@@ -1,0 +1,18 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <title>WELCOME</title>  
+</head>  
+<body> 
+<h1>Health is wealth</h1>
+
+<img src class="pic"="https://i.pinimg.com/736x/6c/11/f5/6c11f57bd78d25de10e4e30986df01a4.jpg" > 
+
+<form method="POST" class="post-form">  
+        {% csrf_token %}  
+        {{ form.as_p }}  
+        <button type="submit" class="save">submit</button>  
+</form> 
+</body>  
+</html> 
